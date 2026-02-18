@@ -4,7 +4,7 @@ import AccordionItem from "./components/Accordion/AccordionItem";
 function App() {
   return (
     <main>
-      <senction>
+      <section>
         <h2>Why work with us?</h2>
         <Accordion className={'accordion'}>
           <AccordionItem
@@ -32,7 +32,7 @@ function App() {
             </article>
           </AccordionItem>
         </Accordion>
-      </senction>
+      </section>
     </main>
   );
 }
